@@ -6,3 +6,4 @@ aiogram==2.25.1
 aiohttp==3.9.1
 python-dotenv==1.0.0
 cryptg==2023.6.18
+pytgcalls==5.0.1
