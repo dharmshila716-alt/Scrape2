@@ -139,14 +139,14 @@ def get_main_menu_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/+ed0DHD3KZ4I0ZWU1", style="primary", icon_custom_emoji_id="5343636681473935403"),
-                InlineKeyboardButton(text="𝙲𝙼𝙳𝚂", callback_data="show_cmds", style="primary", icon_custom_emoji_id="5444860552310457690")
+                InlineKeyboardButton(text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/+ed0DHD3KZ4I0ZWU1", style="primary"),
+                InlineKeyboardButton(text="𝙲𝙼𝙳𝚂", callback_data="show_cmds", style="primary")
             ],
             [
-                InlineKeyboardButton(text="𝙰𝙳𝙼𝙸𝙽", url="https://t.me/FROXT_07", style="primary", icon_custom_emoji_id="5990286768581121572")
+                InlineKeyboardButton(text="𝙰𝙳𝙼𝙸𝙽", url="https://t.me/FROXT_07", style="primary")
             ],
             [
-                InlineKeyboardButton(text="ᴄʟᴏꜱᴇ", callback_data="exit_bot", style="danger", icon_custom_emoji_id="6206174450765796040")
+                InlineKeyboardButton(text="ᴄʟᴏꜱᴇ", callback_data="exit_bot", style="danger")
             ]
         ]
     )
@@ -155,15 +155,15 @@ def get_cmds_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="𝚂𝚌𝚛𝚊𝚙𝚎", callback_data="cmd_scraper", style="primary", icon_custom_emoji_id="5454371323595744068"),
-                InlineKeyboardButton(text="𝚂𝚙𝚕𝚒𝚝", callback_data="cmd_split", style="primary", icon_custom_emoji_id="5445388803223091254")
+                InlineKeyboardButton(text="𝚂𝚌𝚛𝚊𝚙𝚎", callback_data="cmd_scraper", style="primary"),
+                InlineKeyboardButton(text="𝚂𝚙𝚕𝚒𝚝", callback_data="cmd_split", style="primary")
             ],
             [
-                InlineKeyboardButton(text="𝙲𝚕𝚎𝚊𝚗", callback_data="cmd_clean", style="primary", icon_custom_emoji_id="5447453226498552490"),
-                InlineKeyboardButton(text="𝙲𝚑𝚎𝚌𝚔", callback_data="cmd_check", style="primary", icon_custom_emoji_id="5258396243666681152")
+                InlineKeyboardButton(text="𝙲𝚕𝚎𝚊𝚗", callback_data="cmd_clean", style="primary"),
+                InlineKeyboardButton(text="𝙲𝚑𝚎𝚌𝚔", callback_data="cmd_check", style="primary")
             ],
             [
-                InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="back_start", style="danger", icon_custom_emoji_id="5445365692004071819")
+                InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="back_start", style="danger")
             ]
         ]
     )
@@ -171,7 +171,7 @@ def get_cmds_keyboard() -> InlineKeyboardMarkup:
 def get_back_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="show_cmds", style="danger", icon_custom_emoji_id="5445365692004071819")]
+            [InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="show_cmds")]
         ]
     )
 
